@@ -1,5 +1,7 @@
-<?php 
+<?php
+require_once('bootstrap.php'); 
 class Database {
+	
 	public $connection;
 	
 	public function __construct() {
