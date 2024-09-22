@@ -8,7 +8,6 @@
 <h4>Programmed by Saurabh Chawla</h4>
 <?php
 require_once('includes/bootstrap.php');
-// Trim the incoming Data
 $title = trim($_POST['Title']);
 $result = Movie::delete($dbc, $title);
 if ($result) {
