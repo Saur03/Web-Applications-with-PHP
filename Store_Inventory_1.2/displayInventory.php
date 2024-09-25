@@ -7,7 +7,7 @@
 <body>
 <?php
 
-//Set the variables for the database access
+
 require_once('includes/bootstrap.php');
 ?>
 
@@ -20,7 +20,7 @@ require_once('includes/bootstrap.php');
 <td align='center' valign='top'><b>YEAR RELEASED</b></td>
 </tr>
 <?php
-// FETCH THE RECORDS FROM THE DATABASE
+
 $movies = Movie::all($dbc);
 
 
