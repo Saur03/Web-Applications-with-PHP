@@ -31,9 +31,6 @@ class Session{
         $_SESSION['user'] = $userObj;
     }
 
-    public function logout() {
-        
-    }
 
 
 
